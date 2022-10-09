@@ -90,9 +90,10 @@ pipeline{
         stage("Upload Artifacts"){
             steps{
                 echo "========executing Sonar Scan========"
-                withMaven(globalMavenSettingsConfig: '3f28e200-322b-4c81-8b73-c151d8979f48', jdk: 'JDK8', maven: 'myMaven') {
+                /*withMaven(globalMavenSettingsConfig: '3f28e200-322b-4c81-8b73-c151d8979f48', jdk: 'JDK8', maven: 'myMaven') {
                         sh 'mvn deploy'  
-                }
+                }*/
+                sh 'mvn  deploy'
               
             }               
             post{
