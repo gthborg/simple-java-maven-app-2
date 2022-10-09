@@ -1,5 +1,7 @@
 pipeline{
-    agent any
+    agent {
+  label 'buildserver'
+        }
     tools {
         git 'MyGit'
         maven 'myMaven'
