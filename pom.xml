@@ -72,21 +72,21 @@
     </plugins>
   </build>
 
-  <repositories>
+<repositories>
     <repository>
       <id>mymaven-group</id>
-      <url>http://3.238.238.230:8081/repository/mymaven-group/</url>
+      <url>http://44.192.39.202:8081/repository/mymaven-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>mymaven-snapshots</id>
-      <url>http://3.238.238.230:8081/repository/mymaven-snapshots/</url>
+      <url>http://44.192.39.202:8081/repository/mymaven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>mymaven-releases</id>
-      <url>http://3.238.238.230:8081/repository/mymaven-releases/</url>
+      <url>http://44.192.39.202:8081/repository/mymaven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
